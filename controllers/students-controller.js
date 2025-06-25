@@ -15,6 +15,7 @@ function setup(app, students) {
   app.get('/students', function(req, res) {
     let model = {title: "Students", students};
     res.render('students', model);
+    let i =0;
   });
 
   app.get('/about', function(req, res) {
